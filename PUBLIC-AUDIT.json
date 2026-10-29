@@ -1,0 +1,33 @@
+{
+  "version": "0.0.133",
+  "sourceFiles": 124,
+  "nestedIpkFiles": 61,
+  "checks": [
+    "private_tv_address",
+    "private_windows_profile",
+    "private_location",
+    "private_archive_link",
+    "conversation_export",
+    "key_material",
+    "github_token",
+    "provider_token",
+    "bearer_value"
+  ],
+  "findings": [],
+  "includedMedia": [
+    "assets/clean-icon-130.png",
+    "assets/clean-icon-60.png",
+    "assets/clean-icon-80.png",
+    "assets/clean-icon.svg",
+    "assets/app-icons/generic.png",
+    "assets/backgrounds/midnight-peaks.svg",
+    "assets/backgrounds/pacific-coast-cc0.jpg"
+  ],
+  "validation": {
+    "testFilesPassed": 10,
+    "testsPassed": 73,
+    "ipkDateVerification": "passed",
+    "hardwareValidation": "not installed on a TV"
+  },
+  "scope": "Allowlisted generic source and newly built package only. No session archive, firmware, logs, credentials or screenshots."
+}
